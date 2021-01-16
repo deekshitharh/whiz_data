@@ -276,4 +276,6 @@ class Baseline extends Component {
     );
   }
 }
+//passing the styles based on key ie "baselinestyles" for the component Baseline 
+//from genric styles
 export default withRouter(withStyles(styles("baselinestyles"))(Baseline));

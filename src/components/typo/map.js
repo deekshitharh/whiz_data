@@ -16,7 +16,7 @@ const style = {
      id: 1
    },
  ];
-
+//map component used in Contact us page for map location 
 export class MapContainer extends Component {
          constructor(props) {
            super(props);

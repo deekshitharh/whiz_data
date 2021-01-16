@@ -274,4 +274,6 @@ class Aboutwork extends Component {
     );
   }
 }
+//passing the styles based on key ie "approachstyles" for the component Aboutwork 
+//from genric styles
 export default withRouter(withStyles(styles("approachstyles"))(Aboutwork));

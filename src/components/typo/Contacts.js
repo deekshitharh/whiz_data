@@ -540,3 +540,5 @@ class Contacts extends Component {
 }
 
 export default withRouter(withStyles(styles("contactstyles"))(Contacts));
+// passing the styles based on key ie "contactstyles" for the component Baseline 
+// from genric styles folder

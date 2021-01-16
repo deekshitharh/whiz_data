@@ -1,4 +1,4 @@
-//fom schema fo time to contact lnding page
+//fom schema fo time to contact landing page CaseStudies(learn more button)
 const fileds = [
   {
     id: "date",

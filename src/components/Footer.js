@@ -83,27 +83,7 @@ class Footer extends Component {
             </Typography>
           </Grid>
           <Grid container item xs={12} sm={12} md={4}>
-            {/* <Grid item xs={12} sm={12} md={12}>
-              <Typography gutterBottom className={classes.footertext}>
-                Social Networks:
-              </Typography>
-            </Grid> */}
-            {/* <Grid item xs={12} sm={12} md={12}>
-              <Typography gutterBottom className={classes.footertext}>
-                <Icon>
-                  <InstagramIcon />
-                </Icon>
-                <Icon>
-                  <FacebookIcon />
-                </Icon>
-                <Icon>
-                  <TwitterIcon />
-                </Icon>
-                <Icon>
-                  <LinkedInIcon />
-                </Icon>
-              </Typography>
-            </Grid> */}
+          
           </Grid>
           <Grid container item xs={12} sm={12} md={4}>
             <Grid item xs={12} sm={12} md={12}>
@@ -121,29 +101,6 @@ class Footer extends Component {
 }
 
 
-
-   // {/* <Box display={{ xs: "block", sm: "block", lg: "none", md: "none" }}>
-        //   <footer>
-        //     <Footer />
-        //   </footer>
-        // </Box>
-
-        // {/* <div className={classes.root}> */}
-        // {/* <Box display={{ xs: "none", sm: "none", md: "block", lg: "block" }}>
-        //   <footer
-        //     style={{
-        //       background: "#1a1a1a",
-        //       color: "#929292",
-        //       zIndex: "1600",
-        //       bottom: 0,
-        //       position: "fixed",
-        //       width: "100%",
-        //       marginTop: "100"
-        //     }}
-        //   >
-        //     <Footer />
-        //   </footer>
-        // </Box>  */}
 
 
 

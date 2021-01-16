@@ -345,95 +345,6 @@ class Main extends Component {
               })}
             </Grid>
 
-            {/* <Paper className={classes.wizpaper}>
-              <Grid container justify="center">
-                <Grid md={6}>
-                  <Grid md={12}>
-                    <Typography className={classes.sectionheading}>
-                      <b>OUR BEST PRACTICES IN SOFTWARE DEVELOPMENT</b>
-                    </Typography>
-                  </Grid>
-
-                  <Grid md={12}>
-                    <Typography
-                      variant="body1"
-                      className={classes.content}
-                      gutterBottom
-                    >
-                      Whizdata uses advanced tools, technologies and
-                      methodologies for software development. The main stream of
-                      our software development activities is formed by a stack
-                      of NodeJS and other Javascript platform. All of our
-                      employees have been trained to use these software tools
-                      efficiently, with simplicity and scalability in mind.
-                    </Typography>
-                    <Typography
-                      variant="body1"
-                      className={classes.content}
-                      gutterBottom
-                    >
-                      Whizdata uses advanced tools, technologies and
-                      methodologies for software development. The main stream of
-                      our software development activities is formed by a stack
-                      of NodeJS and other Javascript platform. All of our
-                      employees have been trained to use these software tools
-                      efficiently, with simplicity and scalability in mind.
-                    </Typography>
-                    <Typography
-                      variant="body1"
-                      className={classes.content}
-                      gutterBottom
-                    >
-                      At Whizdata, we use a number of internally developed CASE
-                      tools, code-generators, compilers, regression QA scripts,
-                      functional and stress testing stack etc to reduce human
-                      errors and improve delivery efficiency. When building
-                      software, we use the method of short iterations which
-                      assumes that even at the very beginning of the development
-                      cycle, the delivered features are QA-ed and ready for
-                      customer's inspection. Our methodology allows us to
-                      identify discrepancies between customer expectations and
-                      our understanding at early stages and provide the fixes
-                      early in the project cycle. We use modern refactoring
-                      techniques to keep the architecture of applications simple
-                      and easy to re-use.
-                    </Typography>
-                  </Grid>
-                </Grid>
-
-                <Grid md={6}>
-                  <Grid md={3}>
-                    <Typography
-                      gutterBottom
-                      variant="h2"
-                      className={classes.sectionheading}
-                    >
-                      Our Happy Clients
-                    </Typography>
-                  </Grid>
-
-                  <Grid md={3}>
-                    <Slider {...settings}>
-                      {poductlogo.map(index => {
-                        return (
-                          <div
-                            // className={classes.slickslider1}
-                            key={index.name}
-                          >
-                            <img
-                              src={index.src}
-                              alt=""
-                              style={{ display: "block", margin: "0 auto" }}
-                            ></img>
-                          </div>
-                        );
-                      })}
-                    </Slider>
-                  </Grid>
-                </Grid>
-
-              </Grid>
-              </Paper> */}
 
             <Paper className={classes.wizpaper}>
               <Grid container alignItems="center" justify="center">
@@ -602,5 +513,6 @@ class Main extends Component {
     );
   }
 }
-
+// passing the styles based on key ie "styles()" for the component Main 
+// from genric styles folder
 export default withRouter(withStyles(styles())(Main));

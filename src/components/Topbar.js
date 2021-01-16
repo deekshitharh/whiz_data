@@ -15,7 +15,7 @@ import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 import Menu from "./Menu";
 import Box from "@material-ui/core/Box";
 import logo from "../images/whiz-data-logo.svg"
-
+//styles for topbar component
 const styles = (theme) => ({
   appBar: {
     position: "relative",

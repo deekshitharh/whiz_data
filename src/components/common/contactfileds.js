@@ -1,5 +1,5 @@
 
-//contact field schema
+//contact field schema for contact us form(Top bar menu)
 const fileds = [
     {
         "id": "checkbox", id: "check",

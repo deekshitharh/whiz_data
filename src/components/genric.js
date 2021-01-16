@@ -6,7 +6,7 @@ import contactimg from "../images/productCurvy.png";
 import animationimage from "../images/works.jpg";
 import herobanner from "../images/mainbanner.jpg";
 
-//styles based on component and genric 
+//genric and component based styling  
 const wizardstyles = (theme, inner) =>
   inner === "wizardstyles"
     ? {

@@ -1,4 +1,4 @@
-//navigation menu
+//navigation menu schema
 const Menu = [
   {
     label: "Home",

@@ -124,7 +124,7 @@ class aboutUs extends Component {
                               </b>
                             </Typography>
                           </div>
-                          {/* <img alt="" className={classes.bannerimg1}></img> */}
+                       
                           <div>
                             <Typography
                               variant="body1"

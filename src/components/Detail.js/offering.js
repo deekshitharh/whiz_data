@@ -402,3 +402,5 @@ class Offerings extends Component {
   }
 }
 export default withRouter(withStyles(styles("offeringstyles"))(Offerings));
+// passing the styles based on key ie "offeringstyles" for the component Offerings
+// from genric styles folder

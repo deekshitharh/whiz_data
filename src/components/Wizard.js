@@ -33,7 +33,7 @@ import LocalShippingOutlinedIcon from "@material-ui/icons/LocalShippingOutlined"
 import ListAltOutlinedIcon from "@material-ui/icons/ListAltOutlined";
 import MultilineChartOutlinedIcon from "@material-ui/icons/MultilineChartOutlined";
 import { Link } from "react-router-dom";
-//cards array for case studies
+//cards array for case studies display
 const cards = [
   {
     id: 1,
@@ -331,13 +331,7 @@ class Wizard extends Component {
     }));
   };
 
-  // handleChange = id => {
-  //   this.setState(prevState => ({
-  //     cardArr: prevState.cardArr.map(el =>
-  //       el.id === id ? { ...el, checked: !el.checked } : el
-  //     )
-  //   }));
-  // };
+
 
   componentDidMount() {}
 
@@ -480,61 +474,7 @@ class Wizard extends Component {
                             })}
                           </CardContent>
 
-                          {/* <Dialog
-                            open={value.open}
-                            onClose={() => this.handleClose(value.id)}
-                            aria-labelledby="customized-dialog-title"
-                            aria-describedby="alert-dialog-description"
-                            scroll="body"
-                          >
-                            <Slide
-                              direction="right"
-                              in={!value.slidein}
-                              timeout={transitionDuration}
-                              mountOnEnter
-                              unmountOnExit
-                            >
-                              <Paper>
-                                <DialogTitle
-                                  className={classes.sectionheading}
-                                  id="customized-dialog-title"
-                                >
-                                  {value.title}
-                                </DialogTitle>
-
-                                <DialogContent dividers>
-                                  <Typography className={classes.content}>
-                                    Lorem Ipsum is simply dummy text of the
-                                    printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy
-                                    text ever since the 1500s, when an unknown
-                                    printer took a galley of type and scrambled
-                                    it to make a type specimen book.
-                                  </Typography>
-                                </DialogContent>
-                                <DialogActions className={classes.projectview}>
-                                  <Link
-                                    to="/contacts"
-                                    className={classes.linkproject}
-                                  >
-                                    <Button
-                                      //  value={this.props.}
-                                      onClick={this.props.onClick}
-                                    >
-                                      SIMILAR PROJECT
-                                    </Button>
-                                  </Link>
-                                  <Button
-                                    className={classes.actionButtom}
-                                    onClick={() => this.handleClose(value.id)}
-                                  >
-                                    close
-                                  </Button>
-                                </DialogActions>
-                              </Paper>
-                            </Slide>
-                          </Dialog> */}
-
+                        
                           <CardActions className={classes.buttonend}>
                             <Link
                               to={{
