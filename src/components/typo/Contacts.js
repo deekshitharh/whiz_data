@@ -94,7 +94,6 @@ class Contacts extends Component {
 
   showDates = () => {
     let start = DateTime.local();
-    //let end = DateTime.local(2020, 10, 17);
     let end = start.plus({ month: 12 });
 
     let interval = Interval.fromDateTimes(start, end);
@@ -106,16 +105,7 @@ class Contacts extends Component {
     this.setState({ arryDates: arr });
   };
 
-  // resetForm = () => {
-  //   this.setState({
-  //     contact: checkboxes,
-  //     start: 0,
-  //     period: 3,
-  //     startdate: "",
-  //     email: "",
-  //     description: "",
-  //   });
-  // };
+  
 
   componentDidMount() {
     this.showDates();
